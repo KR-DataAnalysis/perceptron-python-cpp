@@ -32,6 +32,10 @@ Training output showing weight updates, error reduction, and convergence across 
 ### Python
 ```bash
 python perceptron.py
+```
 
+### C++
+```bash
 g++ perceptron.cpp -o perceptron
 ./perceptron
+```
