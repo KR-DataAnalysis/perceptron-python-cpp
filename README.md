@@ -23,7 +23,7 @@ The model converged after multiple epochs, achieving 100% accuracy on OR gate in
 - How perceptrons achieve convergence  
 - The impact of learning rate and bias  
 - Differences in implementation between Python and C++  
-## Sample Output
+## Training Output
 Training output showing weight updates, error reduction, and convergence across epochs in both Python and C++ implementations.
 
 ![Training Output](perceptron_output.jpg)
