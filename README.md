@@ -27,4 +27,4 @@ Final testing confirms correct outputs for all OR gate input combinations.
 - Differences in implementation between Python and C++  
 ## Sample Output
 
-![Training Output](Perceptron Double Output.jpg)
+![Training Output](perceptron_output.jpg)
