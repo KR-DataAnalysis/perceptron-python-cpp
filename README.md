@@ -28,6 +28,7 @@ Training output showing weight updates, error reduction, and convergence across 
 
 ![Training Output](perceptron_output.jpg)
 ## How to Run
+Run the Python version for easiest execution, or use the C++ version for comparison.
 
 ### Python
 ```bash
