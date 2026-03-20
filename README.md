@@ -13,9 +13,7 @@ The perceptron is trained on logical datasets (e.g., OR gate) using weighted inp
 - Implemented in both Python and C++ for comparison  
 
 ## Output
-The model shows convergence over time, with weights stabilizing and classification errors reduced to zero.
-
-Final testing confirms correct outputs for all OR gate input combinations.
+The model converged after multiple epochs, achieving 100% accuracy on OR gate inputs.
 
 ## Technologies Used
 - Python  
@@ -26,5 +24,14 @@ Final testing confirms correct outputs for all OR gate input combinations.
 - The impact of learning rate and bias  
 - Differences in implementation between Python and C++  
 ## Sample Output
+Training output showing weight updates, error reduction, and convergence across epochs in both Python and C++ implementations.
 
 ![Training Output](perceptron_output.jpg)
+## How to Run
+
+### Python
+```bash
+python perceptron.py
+
+g++ perceptron.cpp -o perceptron
+./perceptron
